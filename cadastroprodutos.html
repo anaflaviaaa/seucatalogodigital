@@ -1,0 +1,43 @@
+<html lang="en">
+<title>Cadastro de produtos</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type= "text/css" href="mystyle.css">
+
+<body>
+
+<!-- Navbar -->
+<div class="w3-top w3-black">
+  <div class="w3-bar  w3-card w3-left-align w3-large">
+    <a class="w3-bar-item w3-black w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <p class="w3-bar-item"> <b>SEU</b> Catalogo Digital</p>
+  </div>
+</div>
+<!-- Header -->
+<header class="w3-container w3-black w3-center" style="padding:40px 16px">
+  <h1 class="w3-margin w3-jumbo cor">Cadastre seu produto</h1>
+</header>
+
+<div class= "w3-container form" >
+	<br> <br> <center>
+			<form name = "form_cadastro_produtos" method = " POST " class = "w3-card">
+				<h2 class= "cor"> Novo Produto: </h2 > 
+				<div  class = " w3-container " >
+					Nome do produto: <input  class = " w3-input w3-border " tipo =" texto " id =" Nome " nome =" Nome " /> <br>
+					Categoria: <input  class = " w3-input w3-border " tipo =" texto " id ="categoria" nome ="categoria" /> <br>
+					Preço: <input  class = " w3-input w3-border " tipo =" texto " id ="preço" nome ="preço" /> <br>
+					<label  for = "descricao" > <strong> Descrição </strong > </label >
+					<br><textarea  class = " w3-input w3-border " rows = "5" id = "descricao" name = "descricao" > </textarea >
+					<center>
+					<br><input class="w3-button" type="button" value="Cadastrar"> <br>
+					</div > <br>
+			</form > <br>
+</div>
+
+
+</body>
+</html>
